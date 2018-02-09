@@ -1,59 +1,66 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1"/>
     <title>Learn Verified Student Roster</title>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/fonts.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/fonts.css"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
   </head>
   <body>
-    <div class="main-wrapper roster">
+    <div class="main-wrapper profile">
       <header class="header">
-        <a href="#">
+        <a href="/">
           <img class="learn-logo" src="https://s3.amazonaws.com/learn-verified/logo.png"/>
         </a>
       </header>
-      <div class="roster-body-wrapper">
-        <div class="roster-text-container">
-          <h1>Every Story Has Heroes</h1>
-          <h2>We're a group of people on a journey to learn to love code.</h2>
+      <div class="profile-banner" id="onur-eker-cover"></div>
+      <div class="vitals-container">
+        <div class="profile-photo" id="onur-eker-card"></div>
+        <div class="social-icon-container">
+          <a href="http://twitter.com/onureker"><img class="social-icon" src="https://i.imgur.com/2qon3kh.jpg"/></a>
+          <a href="http://www.linkedin.com/onureker"><img class="social-icon" src="https://i.imgur.com/2qon3kh.jpg"/></a>
+          <a href="http://www.github.com/yonureker"><img class="social-icon" src="https://i.imgur.com/2qon3kh.jpg"/></a>
+          <!--<a href="#"><img class="social-icon" src="https://s3.amazonaws.com/learn-verified/rss-icon.png"/></a>-->
         </div>
-        <div class="roster-cards-container">
-          <div class="student-card" id="joe-burgess-card">
-            <a href="students/joe-burgess.html">
-              <div class="view-profile-div">
-                <h3 class="view-profile-text">View Profile</h3>
-              </div>
-              <div class="card-text-container">
-                <h4 class="student-name">Joe Burgess</h4>
-                <p class="student-location">New York, NY</p>
-              </div>
-            </a>
+        <div class="vitals-text-container">
+          <h1 class="profile-name">Onur Eker</h1>
+          <h2 class="profile-location">San Francisco, CA</h2>
+          <div class="profile-quote">"To write history is as important as to make history. If the writer does not remain true to the maker, then the unchanging truth takes on a quality that will confuse the humanity."</div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="bio-block details-block">
+          <div class="bio-content content-holder">
+            <div class="title-holder">
+              <h3>Biography</h3>
+            </div>
+            <div class="description-holder">
+              <p>The apprentice of the code ninja.</p>
+            </div>
           </div>
-          <div class="student-card" id="mathieu-balez-card">
-            <a href="students/mathieu-balez.html">
-              <div class="view-profile-div">
-                <h3 class="view-profile-text">View Profile</h3>
-              </div>
-              <div class="card-text-container">
-                <h4 class="student-name">Mathieu Balez</h4>
-                <p class="student-location">New York, NY</p>
-              </div>
-            </a>
+        </div>
+        <div class="education-block details-block">
+          <div class="education-content content-holder">
+            <div class="title-holder">
+              <h3>Education</h3>
+            </div>
+            <div class="description-holder">
+              <h4>Bogazici University</h4>
+              <h5>Economics</h5>
+            </div>
           </div>
-          <div class="student-card" id="diane-vu-card">
-            <a href="students/diane-vu.html">
-              <div class="view-profile-div">
-                <h3 class="view-profile-text">View Profile</h3>
-              </div>
-              <div class="card-text-container">
-                <h4 class="student-name">Diane Vu</h4>
-                <p class="student-location">New York, NY</p>
-              </div>
-            </a>
+        </div>
+        <div class="experience-block details-block">
+          <div class="experience-content content-holder">
+            <div class="title-holder">
+              <h3>Experience</h3>
+            </div>
+            <div class="description-holder">
+              <h4>eBay</h4>
+              <h5>Marketing</h5>
+            </div>
           </div>
-
         </div>
       </div>
       <footer class="footer">
